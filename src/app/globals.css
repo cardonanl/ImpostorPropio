@@ -1,0 +1,117 @@
+/* --- Windows 95-ish look --- */
+:root {
+  --bg: #008080;          /* teal classic */
+  --panel: #c0c0c0;       /* win95 gray */
+  --panel2: #dcdcdc;
+  --text: #111;
+  --border-dark: #404040;
+  --border-light: #ffffff;
+  --shadow: #808080;
+  --accent: #000080;      /* navy */
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Tahoma, Verdana, system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Window container */
+.win {
+  max-width: 720px;
+  margin: 22px auto;
+  background: var(--panel);
+  border: 2px solid var(--border-dark);
+  box-shadow:
+    2px 2px 0 var(--shadow),
+    inset 1px 1px 0 var(--border-light);
+}
+
+.titlebar {
+  background: linear-gradient(90deg, var(--accent), #0000aa);
+  color: white;
+  padding: 10px 12px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titlebar small {
+  opacity: 0.9;
+  font-weight: 600;
+}
+
+.content {
+  padding: 16px;
+}
+
+.panel {
+  background: var(--panel2);
+  border: 2px solid var(--border-dark);
+  box-shadow: inset 1px 1px 0 var(--border-light);
+  padding: 14px;
+}
+
+/* Inputs */
+label { display: block; }
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid var(--border-dark);
+  box-shadow: inset 1px 1px 0 var(--border-light);
+  background: white;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+textarea { resize: vertical; }
+
+/* Buttons */
+.btn {
+  padding: 10px 12px;
+  border: 2px solid var(--border-dark);
+  box-shadow:
+    1px 1px 0 var(--shadow),
+    inset 1px 1px 0 var(--border-light);
+  background: var(--panel);
+  cursor: pointer;
+  font-weight: 800;
+}
+.btn:active {
+  box-shadow:
+    inset 2px 2px 0 var(--shadow);
+}
+.btn.primary {
+  background: #e6e6e6;
+}
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Spacing helpers */
+.stack { display: grid; gap: 12px; }
+.row { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+
+.badge {
+  display: inline-block;
+  padding: 8px 10px;
+  border: 2px solid var(--border-dark);
+  box-shadow: inset 1px 1px 0 var(--border-light);
+  background: var(--panel2);
+  font-weight: 800;
+}
+
+/* Toast */
+.toast {
+  margin-top: 12px;
+  padding: 12px;
+  border: 2px solid var(--border-dark);
+  background: #fff5cc;
+  box-shadow: inset 1px 1px 0 var(--border-light);
+  font-weight: 800;
+}

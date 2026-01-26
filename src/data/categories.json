@@ -1,0 +1,12 @@
+{
+  "Comida": [
+    { "word": "Pizza", "hints": ["italiana", "queso", "porciones", "horno"] },
+    { "word": "Sushi", "hints": ["japonesa", "arroz", "pescado", "rollos"] },
+    { "word": "Taco", "hints": ["mexicana", "tortilla", "salsa", "callejero"] }
+  ],
+  "Animales": [
+    { "word": "Delfín", "hints": ["marino", "inteligente", "saltos", "ecolocalización"] },
+    { "word": "León", "hints": ["sabana", "melena", "depredador", "manada"] },
+    { "word": "Pingüino", "hints": ["frío", "blanco y negro", "nada", "antártida"] }
+  ]
+}
