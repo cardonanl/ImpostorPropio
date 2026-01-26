@@ -38,21 +38,22 @@ export default function Play() {
   const gameOver = remaining <= 0 || impostorsWinNow || civiliansWinNow;
 
   function eliminate(name: string) {
-    if (gameOver) return;
+  if (!gs || gameOver) return;
 
-    const ok = window.confirm(`¿Estás seguro de que deseas eliminar a ${name}?`);
-    if (!ok) return;
+  const ok = window.confirm(`¿Estás seguro de que deseas eliminar a ${name}?`);
+  if (!ok) return;
 
-    const p = gs.players.find((x) => x.name === name);
-    if (!p || p.eliminated) return;
+  const p = gs.players.find((x) => x.name === name);
+  if (!p || p.eliminated) return;
 
-    p.eliminated = true;
-    saveGameState(gs);
-    setGs({ ...gs });
+  p.eliminated = true;
+  saveGameState(gs);
+  setGs({ ...gs });
 
-    setToast(p.role === "impostor" ? `✅ ${name} ERA IMPOSTOR` : `❌ ${name} NO era impostor`);
-    setTimeout(() => setToast(null), 2200);
-  }
+  setToast(p.role === "impostor" ? `✅ ${name} ERA IMPOSTOR` : `❌ ${name} NO era impostor`);
+  setTimeout(() => setToast(null), 2200);
+}
+
 
   function reset() {
     const ok = window.confirm("¿Reiniciar y borrar la partida actual?");
