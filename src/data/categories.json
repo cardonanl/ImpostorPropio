@@ -1,12 +1,42 @@
 {
-  "Comida": [
-    { "word": "Pizza", "hints": ["italiana", "queso", "porciones", "horno"] },
-    { "word": "Sushi", "hints": ["japonesa", "arroz", "pescado", "rollos"] },
-    { "word": "Taco", "hints": ["mexicana", "tortilla", "salsa", "callejero"] }
+  "Alimentos": [
+    { "word": "Arepa", "hints": ["maíz", "desayuno", "rellena", "sartén"] },
+    { "word": "Bandeja Paisa", "hints": ["fríjoles", "chicharrón", "huevo", "grande"] },
+    { "word": "Empanada", "hints": ["frita", "amarilla", "ají", "calle"] },
+    { "word": "Changua", "hints": ["sopa", "leche", "huevo", "Bogotá"] },
+    { "word": "Salchipapa", "hints": ["salchicha", "papas", "salsas", "noche"] }
   ],
-  "Animales": [
-    { "word": "Delfín", "hints": ["marino", "inteligente", "saltos", "ecolocalización"] },
-    { "word": "León", "hints": ["sabana", "melena", "depredador", "manada"] },
-    { "word": "Pingüino", "hints": ["frío", "blanco y negro", "nada", "antártida"] }
+
+  "Famosos Random": [
+    { "word": "Yeferson Cossio", "hints": ["influencer", "TikTok", "polémica", "lujos"] },
+    { "word": "Epa Colombia", "hints": ["peluquerías", "redes", "escándalo", "empresaria"] },
+    { "word": "J Balvin", "hints": ["reggaetón", "Medellín", "colores", "global"] },
+    { "word": "Karol G", "hints": ["Bichota", "reggaetón", "azul", "estadios"] },
+    { "word": "Amparo Grisales", "hints": ["diva", "Yo me llamo", "frases", "TV"] },
+    { "word": "Esperanza Gomez", "hints": ["tetas", "Culo", "Adultos"] }
+  ],
+
+  "Palabras Groseras": [
+    { "word": "Gonorrea", "hints": ["insulto", "amigos", "rabia", "costeño"] },
+    { "word": "Huevón", "hints": ["perezoso", "amigo", "regaño", "expresión"] },
+    { "word": "Marica", "hints": ["confianza", "sorpresa", "frase", "coloquial"] },
+    { "word": "Paila", "hints": ["mal", "perdido", "dañado", "expresión"] },
+    { "word": "Jueputa", "hints": ["énfasis", "rabia", "sorpresa", "intenso"] }
+  ],
+
+  "Memes": [
+    { "word": "Policía acostado", "hints": ["reductor", "carro", "vía", "bache"] },
+    { "word": "Malo H", "hints": ["frase", "Cali", "Barrio", "viral"] },
+    { "word": "GotaGota", "hints": ["Intereses", "Libreta", "Moto", "Peligro"] },
+    { "word": "La rosa de Guadalupe", "hints": ["viento", "drama", "novela", "milagro"] },
+    { "word": "Vieja confiable", "hints": ["clásico", "seguro", "siempre", "funciona"] }
+  ],
+
+  "Mundo criminal": [
+    { "word": "Caso Colmenares", "hints": ["Bogotá", "Netflix", "Costeños", "CAI"] },
+    { "word": "Garavito", "hints": ["ICBF", "captura", "muerto", "asesino"] },
+    { "word": "Popeye", "hints": ["General", "Medellín", "Youtuber", "narco"] },
+    { "word": "David Murcia", "hints": ["dinero", "millonario", "negocios", "ilegal"] },
+    { "word": "El Cartucho", "hints": ["droga", "vicio", "indigencia", "robo"] }
   ]
 }
