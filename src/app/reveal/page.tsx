@@ -31,21 +31,27 @@ export default function Reveal() {
   if (!gs || !player) return null;
 
   function reveal() {
-    setRevealed(true);
-    setSecondsLeft(gs.config.revealSeconds);
-  }
+  if (!gs) return;
+  setRevealed(true);
+  setSecondsLeft(gs.config.revealSeconds);
+}
+
 
   function next() {
-    const nextIdx = idx + 1;
-    if (nextIdx >= gs.players.length) {
-      saveGameState(gs);
-      router.push("/play");
-      return;
-    }
-    setIdx(nextIdx);
-    setRevealed(false);
-    setSecondsLeft(null);
+  if (!gs) return;
+
+  const nextIdx = idx + 1;
+  if (nextIdx >= gs.players.length) {
+    saveGameState(gs);
+    router.push("/play");
+    return;
   }
+
+  setIdx(nextIdx);
+  setRevealed(false);
+  setSecondsLeft(null);
+}
+
 
   return (
   <main className="win">
