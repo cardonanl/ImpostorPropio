@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🕵️ El Impostor (Win95 Edition)
 
-## Getting Started
+Un juego estilo *“Impostor”* con estética retro tipo Windows 95, pensado para jugar en grupo pasando el teléfono.
 
-First, run the development server:
+Motivación principal: Los que han subido aplicaciones a la AppStore están cobrando como si esto diera plata.
+
+👉 Versión online:  
+https://impostor.nicolascardona.com/
+
+---
+
+## 🎮 ¿Cómo funciona?
+
+1. El anfitrión ingresa los nombres de los jugadores.
+2. Selecciona una categoría.
+3. Define el número de impostores y el tiempo.
+4. Cada jugador revela su rol en privado.
+5. El grupo debate y elimina sospechosos.
+6. Gana el equipo correcto… o los impostores.
+
+---
+
+## ✨ Características
+
+- 🖥️ Interfaz estilo Windows 95
+- 🔐 Revelado privado por turnos
+- 🕵️ Mensaje especial para impostores
+- 💾 Conserva jugadores entre partidas
+- 📱 Responsive (móvil / desktop)
+- 🚀 Deploy automático con Vercel
+
+---
+
+## 🛠️ Stack Técnico
+
+- **Framework:** Next.js (App Router)
+- **Lenguaje:** TypeScript
+- **UI:** CSS custom (Win95 style)
+- **Estado:** LocalStorage
+- **Deploy:** Vercel
+- **Control de versiones:** Git + GitHub
+
+---
+
+## 🚀 Desarrollo Local
+
+### Requisitos
+
+- Node.js >= 20
+
+### Instalación
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/cardonanl/ImpostorPropio.git
+cd ImpostorPropio
+npm install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+src/
+ ├── app/
+ │   ├── page.tsx       # Home / Configuración
+ │   ├── reveal/        # Revelado por turnos
+ │   └── play/          # Eliminaciones
+ ├── lib/
+ │   ├── game.ts        # Lógica del juego
+ │   └── storage.ts     # Persistencia local
+public/
+ └── icons/             # Iconos Win95
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
