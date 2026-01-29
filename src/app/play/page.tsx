@@ -71,12 +71,12 @@ export default function Play() {
   return (
     <main className="win">
       <div className="titlebar">
-        <div>El Impostor Freeee</div>
-        <small>Juego</small>
+        <div>El Impostor V2</div>
+        <small>Jueguitop</small>
       </div>
 
       <div className="content">
-        <h1>Juego</h1>
+        <h1>Hora de jugar, malo h</h1>
 
         <div className="row" style={{ alignItems: "center" }}>
           <span className="badge">⏳ Tiempo: {mm}:{ss}</span>
@@ -119,14 +119,14 @@ export default function Play() {
 
         {gameOver && (
           <div className="panel" style={{ marginTop: 14 }}>
-            <div style={{ fontSize: 18, fontWeight: 900 }}>Fin del juego</div>
+            <div style={{ fontSize: 18, fontWeight: 900 }}>Final final no va más</div>
             <div style={{ marginTop: 8 }}>
               Palabra real: <b>{gs.secretWord}</b>
             </div>
             <div style={{ marginTop: 10, fontWeight: 900 }}>{resultText}</div>
 
             <div style={{ marginTop: 12, opacity: 0.9 }}>
-              Tip: Si quieres “revelar roles” al final, lo añadimos en el siguiente paso.
+              Si tienes alguna recomendación, por favor dejamelo saber :D
             </div>
           </div>
         )}

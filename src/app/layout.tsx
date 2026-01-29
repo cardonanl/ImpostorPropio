@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Impostor Game",
-  description: "Party game - Impostor MVP",
+  description: "Jueguitop",
 };
 
 export default function RootLayout({
@@ -13,6 +13,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
