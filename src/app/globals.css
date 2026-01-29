@@ -115,3 +115,73 @@ textarea { resize: vertical; }
   box-shadow: inset 1px 1px 0 var(--border-light);
   font-weight: 800;
 }
+
+
+.pixel-font {
+  font-family: "Press Start 2P", monospace;
+  letter-spacing: 1px;
+}
+
+.ascii-title {
+  font-size: 10px;
+  line-height: 1.2;
+  color: #000;
+  background: #c0c0c0;
+  padding: 10px;
+  border: 2px inset #fff;
+  overflow-x: auto;
+}
+
+.title-center {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.btn {
+  transition: all 0.08s ease;
+}
+
+.btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: inset 1px 1px #000;
+}
+
+.pop {
+  animation: pop 0.2s ease-out;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.toast {
+  animation: toastIn 0.3s ease-out;
+}
+
+@keyframes toastIn {
+  from {
+    transform: translateY(-8px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.app-header {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 6px;
+  background: #bdbdbd;
+  border: 2px inset white;
+}

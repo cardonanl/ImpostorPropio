@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { loadGameState, saveGameState } from "@/lib/storage";
+
 
 export default function Reveal() {
   const router = useRouter();
@@ -10,12 +11,19 @@ export default function Reveal() {
   const [revealed, setRevealed] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState<number | null>(null);
 
-  const gs = useMemo(() => loadGameState(), []);
+  const [gs, setGs] = useState<ReturnType<typeof loadGameState>>(null);
+  useEffect(() => {
+    const s = loadGameState();
+    if (!s) {
+      router.replace("/");
+      return;
+    }
+    setGs(s);
+  }, [router]);
+
+
   const player = gs?.players[idx];
 
-  useEffect(() => {
-    if (!gs) router.push("/");
-  }, [gs, router]);
 
   useEffect(() => {
     if (!revealed || secondsLeft === null) return;
@@ -75,6 +83,13 @@ export default function Reveal() {
           </button>
         ) : (
           <div className="stack" style={{ marginTop: 12 }}>
+            {player.role === "impostor" && (
+              <div className="toast" style={{ marginTop: 10, display: "flex", gap: 10, alignItems: "center" }}>
+                <img src="/icons/warning.png" alt="!" width={20} height={20} />
+                <div><b>Eres impostor</b></div>
+              </div>
+            )}
+
             <div style={{ fontSize: 20, fontWeight: 900 }}>{player.shownText}</div>
             <div>Se ocultará en: {secondsLeft}s</div>
           </div>
