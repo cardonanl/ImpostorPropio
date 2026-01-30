@@ -1,42 +1,159 @@
 {
-  "Alimentos": [
-    { "word": "Arepa", "hints": ["maíz", "desayuno", "rellena", "sartén"] },
-    { "word": "Bandeja Paisa", "hints": ["fríjoles", "chicharrón", "huevo", "grande"] },
-    { "word": "Empanada", "hints": ["frita", "amarilla", "ají", "calle"] },
-    { "word": "Changua", "hints": ["sopa", "leche", "huevo", "Bogotá"] },
-    { "word": "Salchipapa", "hints": ["salchicha", "papas", "salsas", "noche"] }
+    "Alimentos": [
+    { "word": "Arepa", "hints": ["plancha", "blanco"] },
+    { "word": "Bandeja Paisa", "hints": ["completo", "domingo"] },
+    { "word": "Empanada", "hints": ["bolsita", "esquina"] },
+    { "word": "Changua", "hints": ["madrugada", "niebla"] },
+    { "word": "Salchipapa", "hints": ["esquinero", "plástico"] },
+    { "word": "Chocoramo", "hints": ["mostrador", "vueltos"] },
+    { "word": "Ajiaco", "hints": ["tres", "hierba"] },
+    { "word": "Lechona", "hints": ["corte", "fiesta"] },
+    { "word": "Mondongo", "hints": ["olla", "lento"] },
+    { "word": "Tamal", "hints": ["hilo", "paquete"] }
   ],
 
   "Famosos Random": [
-    { "word": "Yeferson Cossio", "hints": ["influencer", "TikTok", "polémica", "lujos"] },
-    { "word": "Epa Colombia", "hints": ["peluquerías", "redes", "escándalo", "empresaria"] },
-    { "word": "J Balvin", "hints": ["reggaetón", "Medellín", "colores", "global"] },
-    { "word": "Karol G", "hints": ["Bichota", "reggaetón", "azul", "estadios"] },
-    { "word": "Amparo Grisales", "hints": ["diva", "Yo me llamo", "frases", "TV"] },
-    { "word": "Esperanza Gomez", "hints": ["tetas", "Culo", "Adultos"] }
+    { "word": "Yeferson Cossio", "hints": ["retos", "mansión"] },
+    { "word": "Epa Colombia", "hints": ["frasco", "locales"] },
+    { "word": "J Balvin", "hints": ["neón", "festival"] },
+    { "word": "Karol G", "hints": ["giras", "símbolo"] },
+    { "word": "Amparo Grisales", "hints": ["jurado", "sentencias"] },
+    { "word": "Esperanza Gomez", "hints": ["industria", "entrevistas"] },
+    { "word": "Shakira", "hints": ["copa", "mudanza"] },
+    { "word": "Diomedes Díaz", "hints": ["plaza", "multitud"] },
+    { "word": "Rigoberto Urán", "hints": ["micrófono", "risas"] },
+    { "word": "Sofía Vergara", "hints": ["alfombra", "premios"] },
+    { "word": "El Tino Asprilla", "hints": ["celebración", "titulares"] }
   ],
 
   "Palabras Groseras": [
-    { "word": "Gonorrea", "hints": ["insulto", "amigos", "rabia", "costeño"] },
-    { "word": "Huevón", "hints": ["perezoso", "amigo", "regaño", "expresión"] },
-    { "word": "Marica", "hints": ["confianza", "sorpresa", "frase", "coloquial"] },
-    { "word": "Paila", "hints": ["mal", "perdido", "dañado", "expresión"] },
-    { "word": "Jueputa", "hints": ["énfasis", "rabia", "sorpresa", "intenso"] }
+    { "word": "Gonorrea", "hints": ["énfasis", "explosión"] },
+    { "word": "Huevón", "hints": ["tono", "pausa"] },
+    { "word": "Marica", "hints": ["interjección", "muletilla"] },
+    { "word": "Paila", "hints": ["final", "derrota"] },
+    { "word": "Jueputa", "hints": ["subrayar", "impacto"] },
+    { "word": "Carechimba", "hints": ["choque", "calle"] },
+    { "word": "Pirobo", "hints": ["distancia", "conflicto"] },
+    { "word": "Lambón", "hints": ["exceso", "oficina"] },
+    { "word": "Malparido", "hints": ["clímax", "estallido"] },
+    { "word": "Cacorro", "hints": ["susurro", "burla"] }
   ],
 
   "Memes": [
-    { "word": "Policía acostado", "hints": ["reductor", "carro", "vía", "bache"] },
-    { "word": "Malo H", "hints": ["frase", "Cali", "Barrio", "viral"] },
-    { "word": "GotaGota", "hints": ["Intereses", "Libreta", "Moto", "Peligro"] },
-    { "word": "La rosa de Guadalupe", "hints": ["viento", "drama", "novela", "milagro"] },
-    { "word": "Vieja confiable", "hints": ["clásico", "seguro", "siempre", "funciona"] }
+    { "word": "Policía acostado", "hints": ["freno", "sacudida"] },
+    { "word": "Malo H", "hints": ["entonación", "eco"] },
+    { "word": "GotaGota", "hints": ["cuaderno", "visita"] },
+    { "word": "La rosa de Guadalupe", "hints": ["corriente", "blanco"] },
+    { "word": "Doña Gloria", "hints": ["repetición", "escena"] },
+    { "word": "Yanfry", "hints": ["pasos", "pendiente"] },
+    { "word": "Frailejón Ernesto Pérez", "hints": ["ritmo", "eco"] },
+    { "word": "Hombre Caimán", "hints": ["fiesta", "figura"] }
   ],
 
   "Mundo criminal": [
-    { "word": "Caso Colmenares", "hints": ["Bogotá", "Netflix", "Costeños", "CAI"] },
-    { "word": "Garavito", "hints": ["ICBF", "captura", "muerto", "asesino"] },
-    { "word": "Popeye", "hints": ["General", "Medellín", "Youtuber", "narco"] },
-    { "word": "David Murcia", "hints": ["dinero", "millonario", "negocios", "ilegal"] },
-    { "word": "El Cartucho", "hints": ["droga", "vicio", "indigencia", "robo"] }
+    { "word": "Caso Colmenares", "hints": ["madrugada", "puente"] },
+    { "word": "Garavito", "hints": ["archivo", "números"] },
+    { "word": "Popeye", "hints": ["cámara", "confesión"] },
+    { "word": "David Murcia", "hints": ["promesas", "tarjetas"] },
+    { "word": "El Cartucho", "hints": ["demolición", "mapa"] },
+    { "word": "Tirofijo", "hints": ["comunicado", "montaña"] }
+  ],
+
+  "Novelas y TV": [
+    { "word": "Betty la Fea", "hints": ["archivo", "oficina"] },
+    { "word": "Pasión de Gavilanes", "hints": ["herencia", "miradas"] },
+    { "word": "Pedro el Escamoso", "hints": ["pasarela", "entrada"] },
+    { "word": "Sin tetas no hay paraíso", "hints": ["espejo", "decisión"] },
+    { "word": "Padres e Hijos", "hints": ["sobremesa", "rutina"] },
+    { "word": "La Vendedora de Rosas", "hints": ["esquina", "navidad"] },
+    { "word": "Café con aroma de mujer", "hints": ["recogida", "montaña"] },
+    { "word": "El Desafío", "hints": ["conteo", "silencio"] },
+    { "word": "Sábados Felices", "hints": ["tarima", "espera"] },
+    { "word": "La Reina del Flow", "hints": ["cabina", "mezcla"] }
+  ],
+
+  "Juegos Infantiles": [
+    { "word": "La Lleva", "hints": ["sombra", "huida"] },
+    { "word": "El Escondite", "hints": ["pared", "susurro"] },
+    { "word": "Policías y Ladrones", "hints": ["frontera", "base"] },
+    { "word": "Ponchados", "hints": ["impacto", "retirada"] },
+    { "word": "Trompo", "hints": ["tensión", "ruido"] },
+    { "word": "Canicas", "hints": ["trayectoria", "polvo"] },
+    { "word": "Stop", "hints": ["presión", "rapidez"] }
+  ],
+
+  "Personajes de TV": [
+    { "word": "Beatriz Pinzón", "hints": ["expediente", "archivos"] },
+    { "word": "Patricia Fernández", "hints": ["tarjetas", "llamadas"] },
+    { "word": "Juanpis González", "hints": ["copas", "salón"] },
+    { "word": "El Man es Germán", "hints": ["espejo", "ensayo"] },
+    { "word": "Hugo Lombardi", "hints": ["bocetos", "corte"] },
+    { "word": "Barbarita", "hints": ["micrófono", "susurros"] }
+  ],
+
+  "Corrupción y Política": [
+    { "word": "Odebrecht", "hints": ["contratos", "rutas"] },
+    { "word": "Aida Merlano", "hints": ["ventana", "cuerda"] },
+    { "word": "Ñoño Elías", "hints": ["maletín", "registros"] },
+    { "word": "Karen Abudinen", "hints": ["facturas", "servidores"] },
+    { "word": "Cartel de la Toga", "hints": ["despachos", "sellos"] },
+    { "word": "Proceso 8.000", "hints": ["sobres", "cajas"] },
+    { "word": "Agro Ingreso Seguro", "hints": ["listados", "beneficios"] }
+  ],
+
+  "Términos Colombianos": [
+    { "word": "Parce", "hints": ["complicidad", "guiño"] },
+    { "word": "Guayabo", "hints": ["luz", "ruido"] },
+    { "word": "Vaina", "hints": ["comodín", "relleno"] },
+    { "word": "Chévere", "hints": ["asentir", "pulgar"] },
+    { "word": "Pola", "hints": ["nevera", "tarde"] },
+    { "word": "Tinto", "hints": ["vasito", "esquina"] },
+    { "word": "Camellar", "hints": ["jornada", "turno"] },
+    { "word": "Dar Papaya", "hints": ["descuido", "oportuno"] },
+    { "word": "Mecato", "hints": ["bolsillo", "ruido"] },
+    { "word": "Trancón", "hints": ["claxon", "reloj"] }
+  ],
+
+  "Ciudades": [
+    { "word": "Bogotá", "hints": ["Altiplano", "Lesbianas"] },
+    { "word": "Medellín", "hints": ["montañas", "prostitutas"] },
+    { "word": "Cali", "hints": ["musica", "Traquetos"] },
+    { "word": "Barranquilla", "hints": ["calor","Corruptos"] },
+    { "word": "Cartagena", "hints": ["mar", "Prostitutas"] },
+    { "word": "Bucaramanga", "hints": ["hormigas", "parques"] },
+    { "word": "Pasto", "hints": ["frío", "Chistosos"] },
+    { "word": "Santa Marta", "hints": ["bahía", "mar", "antigua"] },
+    { "word": "Manizales", "hints": ["nevado", "lomas"] },
+    { "word": "Cúcuta", "hints": ["calor", "ELN"] }
+  ],
+
+  "Lugares de Cali": [
+    { "word": "Caney", "hints": ["Bwis", "Niches"] },
+    { "word": "El Ingenio", "hints": ["Webcamers", "TXL"] },
+    { "word": "Ciudad Jardín", "hints": ["TXL", "Traquetos"] },
+    { "word": "Siloé", "hints": ["Crypton", "Horqueta"] },
+    { "word": "El Centro", "hints": ["Paisas", "Falso"] },
+    { "word": "La Alcaldía", "hints": ["Picados", "Vagos"] },
+    { "word": "La Gobernación", "hints": ["Robo", "Monas"] },
+    { "word": "Everest", "hints": ["fresco", "joven millonario"] },
+    { "word": "Menga", "hints": ["Afuera", "Destapado"] },
+    { "word": "El Peñon", "hints": ["Gomelos", "Parque"] },
+    { "word": "Condoricosas", "hints": ["Amor", "Museo"] },
+    { "word": "El Bulevar", "hints": ["Cosquilleo", "Burócratas"] },
+    { "word": "Bochalema", "hints": ["Trancones", "Lejos"] },
+    { "word": "Rio Pance", "hints": ["Bareta", "Brujería"] },
+    { "word": "La Alameda", "hints": ["Tradición", "Brujería"] }
+  ],
+
+  "Personajes de Cali": [
+    { "word": "Jorge Iván Ospina", "hints": ["Peluquero", "No es tan caro"] },
+    { "word": "Eder", "hints": ["Calvo", "Retenes"] },
+    { "word": "Goku del Rodeo", "hints": ["Berlín", "Traaaa"] },
+    { "word": "Pirlo", "hints": ["Fresa", "Cartel"] },
+    { "word": "Esperanza Gomez", "hints": ["industria", "entrevistas"] },
+    { "word": "Kevin Roldán", "hints": ["reggaeton", "clásico"] },
+    { "word": "Garay ST", "hints": ["Cómo así", "Abuela"] },
+    { "word": "El Mindo", "hints": ["Papi", "Travesti"] },
+    { "word": "El Chonto", "hints": ["Chocolate", "Pam"] }
   ]
 }
